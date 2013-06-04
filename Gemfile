@@ -45,6 +45,8 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 gem 'omniauth-twitter'
+gem 'omniauth'
+gem 'twitter'
 
 
 
