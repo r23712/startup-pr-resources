@@ -19,4 +19,4 @@
 
 config/database.yml
 
-/app/assets
+/app/assets/css
