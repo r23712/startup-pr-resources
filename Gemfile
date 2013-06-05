@@ -47,6 +47,7 @@ gem 'jquery-rails'
 gem 'omniauth-twitter'
 gem 'omniauth'
 gem 'twitter'
+gem 'cancan'
 
 
 

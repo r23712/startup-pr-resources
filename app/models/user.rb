@@ -24,4 +24,6 @@ class User < ActiveRecord::Base
 
   end
 
+  has_many :posts
+
 end
