@@ -17,6 +17,6 @@
 # Ignore public assets
 /public/assets
 
-/config/database.yml
+config/database.yml
 
-config
+config/initializers/omniauth.rb
