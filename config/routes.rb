@@ -1,7 +1,7 @@
-StartupPrResources::Application.routes.draw do
+StatrupPrResources::Application.routes.draw do
   resources :posts
 
-  root :to => 'posts#index'
+  root :to => "posts#index"
 
   match 'auth/:provider/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')

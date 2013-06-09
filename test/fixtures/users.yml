@@ -3,6 +3,7 @@
 one:
   provider: MyString
   uid: MyString
+  nickname: MyString
   name: MyString
   location: MyString
   image: MyString
@@ -10,6 +11,7 @@ one:
 two:
   provider: MyString
   uid: MyString
+  nickname: MyString
   name: MyString
   location: MyString
   image: MyString

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-StartupPrResources::Application.load_tasks
+StatrupPrResources::Application.load_tasks

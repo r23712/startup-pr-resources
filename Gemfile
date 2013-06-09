@@ -5,15 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do 
-  gem "sqlite3", "~> 1.3.7"
-end
-
-group :production do
-  gem 'pg'
-end
-
-gem 'json'
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,12 +34,14 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug'
+# gem 'debugger'
 
-gem 'omniauth-twitter'
 gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'oauth2', '~> 0.5.0'
 gem 'twitter'
-gem 'cancan'
 
-
-
+group :development do 
+  gem "annotate", "~> 2.5.0"
+end
